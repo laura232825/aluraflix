@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraFlix - Catálogo de Filmes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin: 20px 0;
+        }
+        p {
+            text-align: center;
+            color: #666;
+            font-size: 18px;
+        }
+        .video-container {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        iframe {
+            border: 2px solid #333;
+            border-radius: 10px;
+        }
+        .film-card {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .film-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header>ALURAFLIX</header>
+
+    <h1>ATRAVÉS DO ARANHAVERSO SUPERA O PRIMEIRO FILME?</h1>
+    <p>#homem-aranha</p>
+
+    <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/gt_fAE1Eg2Q?si=EEv-tsY_b1B2OwKE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <h2>Catálogo de Filmes</h2>
+    <div class="film-list">
+        <div class="film-card">
+            <h3>Homem-Aranha: No Aranhaverso</h3>
+            <p>Um jovem Homem-Aranha se une a versões alternativas de si mesmo para salvar o multiverso.</p>
+            <p>Nota: ⭐⭐⭐⭐⭐</p>
+        </div>
+        <div class="film-card">
+            <h3>Homem-Aranha: De Volta ao Lar</h3>
+            <p>Peter Parker tenta equilibrar sua vida como estudante e super-herói enquanto enfrenta o Abutre.</p>
+            <p>Nota: ⭐⭐⭐⭐</p>
+        </div>
+        <div class="film-card">
+            <h3>Homem-Aranha: Longe de Casa</h3>
+            <p>Após a morte de Tony Stark, Peter Parker embarca em uma viagem escolar na Europa.</p>
+            <p>Nota: ⭐⭐⭐⭐</p>
+        </div>
+    </div>
+
+</body>
+</html>
